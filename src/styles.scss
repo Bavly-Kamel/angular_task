@@ -22,6 +22,9 @@ body {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+
   all: unset;
   padding: 0.5rem 1rem;
   display: inline-flex;
@@ -30,6 +33,7 @@ body {
   gap: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin: 7.5px;
 }
 
 .btn-primary {
