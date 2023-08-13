@@ -1,0 +1,13 @@
+<nav>
+  <h1>PRODUCT</h1>
+  <div>
+    <button
+      *ngFor="let route of routesData"
+      app-btn
+      [routerLink]="route.route"
+      class="btn"
+    >
+      {{ route.title }}
+    </button>
+  </div>
+</nav>
