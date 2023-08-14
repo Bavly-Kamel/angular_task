@@ -7,9 +7,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { UiComponentsModule } from './UI-components/ui-components.module';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    CalculatorComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
