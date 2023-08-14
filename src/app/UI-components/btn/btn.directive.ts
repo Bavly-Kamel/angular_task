@@ -6,6 +6,7 @@ import { Directive, HostBinding, Input } from '@angular/core';
   // both syntax are valid to apply attributes or register events: host/@HostBinding-@HostListener
   host: {
     class: 'btn',
+    style: 'background: red !important;',
   },
 })
 export class BtnDirective {
